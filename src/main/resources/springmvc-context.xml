@@ -16,5 +16,11 @@
 
     <!-- 开启SpringMVC框架注解的支持 -->
      <mvc:annotation-driven />
-
+    <bean id="internalResourceViewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
 </beans>
+
+
