@@ -16,7 +16,7 @@ public class TestController {
 
     @RequestMapping("/test")
     public  String test(){
-        System.out.println("进不来了");
+        System.out.println("进不来了aaa");
         return "../test.jsp";
     }
 }
