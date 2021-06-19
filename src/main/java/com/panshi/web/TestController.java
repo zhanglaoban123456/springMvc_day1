@@ -11,6 +11,6 @@ public class TestController {
     @RequestMapping("/test")
     public  String test(){
         System.out.println("进来了");
-        return "test.jsp";
+        return "test";
     }
 }
