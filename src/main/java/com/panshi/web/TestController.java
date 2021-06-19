@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.filter.CharacterEncodingFilter;
 
 @Controller
-@RequestMapping("/student")
+@RequestMapping("/jsp")
 public class TestController {
     /*
     *  /student/test
